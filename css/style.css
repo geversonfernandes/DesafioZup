@@ -1,0 +1,91 @@
+body{
+	background-image: url("../imagens/bg.png");
+	background-image: no-repeat;
+	background-size: cover;
+	width: 90%;
+	margin: auto;
+	font-size: 1.3em;
+	font-family: arimo, serif;
+}
+
+header{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+#img-central{
+	height: 280px;
+	width: 550px;
+	margin-bottom: 20px;
+}
+
+p{
+	height: 300px;
+	width: 300px;
+	border: 2px solid white;
+	border-radius: 10px; 
+	display: inline-block;
+	margin: auto;
+	padding: 30px;
+}
+
+.nome-personagem{
+	height: 30px;
+	width: 300px;
+	background-color: #00FF7F;
+	margin-top: 20px;
+	display: block;
+}
+
+#container{
+	width: 100%;
+	text-align: center;	
+}
+
+a{ 
+	text-decoration:none; 
+	color: white;
+} 
+
+img{
+	height: 300px;
+	width: 300px;
+}
+
+section{
+	width: 24%;
+	display: inline-block;
+	margin-top: 20px; 
+}
+
+span{ 
+	color: white;
+}
+footer{
+	margin-top: 30px;
+}
+
+@media (min-width: 1250px) and (max-width: 1700px){
+	#secao1, #secao2, #secao3{
+		width: 33%;
+	}
+	#secao4{
+		width: 100%;
+	}
+}
+
+@media (min-width: 942px) and (max-width: 1250px){
+	#secao1, #secao2{
+		width: 49.7%;
+	}
+	#secao3, #secao4{
+		width: 49.7%;
+	}
+}
+
+@media (max-width: 942px){
+	#secao1, #secao2, #secao3, #secao4, header, html{
+		width: 100%;
+	}
+}
